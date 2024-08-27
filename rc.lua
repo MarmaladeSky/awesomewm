@@ -466,7 +466,7 @@ c:emit_signal("request::activate", "mouse_click", {raise = true})
 -- Lock Screen
 -- Define your keybinding
 local mylockscreen = awful.key({ modkey }, "l", function ()
-    awful.spawn("sh -c 'i3lock --debug & sleep 1 && xset dpms force off'")
+    awful.spawn("setxkbmap -v us && sh -c 'i3lock --pass-media --pass-screen --pass-power --pass-volume --bar-indicator --keylayout 1 & sleep 1 && xset dpms force off'")
 end, {description = "lock screen and turn off display", group = "custom"})
 
 
