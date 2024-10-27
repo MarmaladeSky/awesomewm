@@ -4,3 +4,6 @@
 [submodule "battery-widget"]
 	path = battery-widget
 	url = git@github.com:deficient/battery-widget.git
+[submodule "apw"]
+	path = apw
+	url = git@github.com:mokasin/apw.git
