@@ -6,4 +6,4 @@
 	url = git@github.com:deficient/battery-widget.git
 [submodule "apw"]
 	path = apw
-	url = git@github.com:mokasin/apw.git
+	url = git@github.com:alandmoore/apw.git
