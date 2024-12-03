@@ -622,3 +622,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- Spawn Utils
 awful.spawn("nm-applet")
+awful.spawn.with_shell("picom --experimental-backends --config ~/.config/picom/picom.conf")
